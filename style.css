@@ -1,0 +1,31 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    width: 100%;
+    margin:0;
+    background-image: url(kepek/hatter.jpeg);
+}
+
+.cim{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 5px;
+    margin: 0 1000px;
+}
+
+nav{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    
+}
+
