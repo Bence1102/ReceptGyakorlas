@@ -29,3 +29,54 @@ nav{
     
 }
 
+.hatra{
+    background-color: red;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin: 0;
+    font-size: large;
+}
+
+
+.elore{
+    background-color: red;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin: 0;
+    font-size: large;
+}
+
+.leiras{
+    background-color: red;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin: 0;
+    font-size: large;
+}
+
+.kedvenc{
+    background-color: rgb(59, 104, 170);
+    color: white;
+    font-family: 'Courier New', Courier, monospace ;
+    padding: 5px;
+    margin: 0;
+    font-size: large;
+}
+
+.jatekter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.receptkartya{
+    padding: 20px;
+    width: 100%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
