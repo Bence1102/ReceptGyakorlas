@@ -1,5 +1,4 @@
-import { receptLista } from "./receptek.js";
-import ReceptElonezet from "./ReceptElonezet.js";
+import Recept from "./ReceptKártyák.js";
 
 
-new ReceptElonezet(receptLista[0]);
+new Recept(".jatekter");

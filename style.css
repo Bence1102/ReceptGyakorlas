@@ -79,4 +79,6 @@ nav{
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
+    border: 5px solid darkgray;
+    box-sizing: border-box;
 }

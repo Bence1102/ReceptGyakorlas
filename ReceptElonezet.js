@@ -11,7 +11,7 @@ export default class ReceptElonezet {
         this.#kep = obj.kep;
         this.#kedvenc = obj.kedvenc ? "Kedvenc" : "Nem kedvenc";
         this.megjelenit();
-        //this.kedvencgomb();
+
     }
 
     megjelenit() {
@@ -27,5 +27,10 @@ export default class ReceptElonezet {
         `;
         this.#szuloElem.appendChild(receptLista);
 
+        const kedvencgomb = receptLista.querySelector(".kedvenc");
+        kedvencgomb.addEventListener("click", () => {
+            this.#obj.kedvenc = !this.#obj.kedvenc;
+            kedvencgomb.textContent = this.#obj.kedvenc ? "Kedvenc" : "Nem kedvenc";
+        });
     }
 }
