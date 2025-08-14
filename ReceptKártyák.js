@@ -14,4 +14,7 @@ export default class Recept{
             new ReceptElonezet(obj)
         });
     }
+
+
+    
 }

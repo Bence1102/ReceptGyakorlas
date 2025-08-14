@@ -29,16 +29,6 @@ nav{
     
 }
 
-.hatra{
-    background-color: red;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    padding: 5px;
-    margin: 0;
-    font-size: large;
-}
-
-
 .elore{
     background-color: red;
     color: white;
@@ -66,6 +56,30 @@ nav{
     font-size: large;
 }
 
+.nagykep{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;;
+    margin: 0 auto;
+}
+
+.nagykep .adatok{
+    flex: 1;
+    text-align: center;
+}
+
+.nagykep button {
+    background-color: red;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin: 0;
+    font-size: large;
+}
+
+
+
 .jatekter{
     display: flex;
     flex-wrap: wrap;
@@ -81,4 +95,21 @@ nav{
     font-size: larger;
     border: 5px solid darkgray;
     box-sizing: border-box;
+}
+
+.receptkartya img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+
+.nagyrecept{
+    color: white;
+}
+
+
+.hozzavalokleiras{
+    color: white;
 }
